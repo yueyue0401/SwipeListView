@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="shadow">#aa000000</color>
+    <color name="hide_p">#777777</color>
+    <color name="hide">#9f9f9f</color>
+    <color name="del_p">#bb3333</color>
+    <color name="del">#ff3333</color>
+    <color name="head1_p">#6666ff</color>
+    <color name="head1">#8888ff</color>
+    <color name="head2_p">#77aa99</color>
+    <color name="head2">#99cccc</color>
+</resources>

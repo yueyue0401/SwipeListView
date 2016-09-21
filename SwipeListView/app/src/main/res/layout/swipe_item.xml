@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <!-- you can input the number of left button and right.-->
+    <com.example.a2055.swipelistview.SwipeLayout
+        android:id="@+id/swipeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        swipe:rightButton="2"
+        swipe:leftButton="2">
+
+        <!-- first component is content.-->
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="item"
+            android:textSize="40sp" />
+
+        <!-- put the right button, the amount is same with input-->
+        <Button
+            android:id="@+id/buttonHide"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_hide"
+            android:text="隱藏"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_del"
+            android:text="刪除"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+
+        <!-- put the left button, the amount is same with input-->
+        <Button
+            android:id="@+id/buttonHead1"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_head1"
+            android:text="已讀"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/buttonHead2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_head2"
+            android:text="靜音"
+            android:textColor="#ffffff" />
+
+    </com.example.a2055.swipelistview.SwipeLayout>
+
+</RelativeLayout>
